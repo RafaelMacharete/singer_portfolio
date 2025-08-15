@@ -1,0 +1,19 @@
+figure > figcaption{
+    padding-left: 10px;
+    font-size: 1.5rem;
+    color: #666;
+    float: right;
+}
+
+.singerDescription{
+    padding: 10px;
+}
+
+.singerName{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.singerInfo{
+    font-size: 1.5rem;
+}
