@@ -1,14 +1,21 @@
-import { Link } from 'react-router-dom';
 import style from './Header.module.css';
+import { Link } from 'react-router-dom';
 
+// Header component with semantic navigation
 export default function Header() {
     return (
+        // Semantic header for site navigation
         <header className={style.header}>
-            <nav className={style.nav}>
+            {/* Navigation bar */}
+            <nav className={style.nav} aria-label="Main navigation">
+                {/* Navigation list */}
                 <ul>
-                    <li><Link to="/">Início</Link></li>
-                    <li><Link to="/discography">Discografia</Link></li>
-                    <li><Link to="/popular-songs">Músicas Populares</Link></li>
+                    {/* Home link */}
+                    <li><Link to="/">Home</Link></li>
+                    {/* Discography link */}
+                    <li><Link to="/discography">Discography</Link></li>
+                    {/* Popular Songs link */}
+                    <li><Link to="/popular-songs">Popular Songs</Link></li>
                 </ul>
             </nav>
         </header>

@@ -1,20 +1,36 @@
-figure > figcaption{
-    padding-left: 10px;
+/* Figure caption for the singer's name */
+figure > figcaption {
+    padding-right: 10px;
     font-size: 1.5rem;
     color: #666;
     float: right;
 }
 
-.singerDescription{
+/* Singer's photo */
+figure img {
+    max-width: 100%;
+}
+
+/* Section describing the singer */
+.singerDescription {
     padding: 10px;
 }
 
-.singerName{
+/* Singer's name */
+.singerName {
     font-size: 4rem;
     font-weight: bold;
 }
 
-.singerInfo{
+/* Singer's info */
+.singerInfo {
     font-size: 1.5rem;
 }
-/*  */
+
+/* Cards section for highlights */
+.singerCards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}

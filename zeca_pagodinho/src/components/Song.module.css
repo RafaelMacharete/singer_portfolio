@@ -1,0 +1,56 @@
+
+/* Song card rectangle style */
+.songCard {
+    display: flex;
+    align-items: flex-start;
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 1.5rem;
+    margin: 1rem 0;
+    gap: 1.5rem;
+    border: 1px solid #ececec;
+    transition: box-shadow 0.2s;
+}
+
+.songCard:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+/* Song image style */
+.songImage {
+    width: 13rem;
+    height: 13rem;
+    object-fit: cover;
+    border-radius: 0.75rem;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+}
+
+/* Song content (text) */
+.songContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+/* Song title */
+.songTitle {
+    font-size: 1.3rem;
+    margin: 0 0 0.3rem 0;
+    color: #222;
+}
+
+/* Song album */
+.songAlbum {
+    font-size: 1rem;
+    color: #666;
+    margin: 0;
+}
+
+/* Song description */
+.songDescription {
+    font-size: 0.98rem;
+    color: #444;
+    margin: 0.2rem 0 0 0;
+}
