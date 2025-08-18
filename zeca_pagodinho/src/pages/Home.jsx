@@ -5,6 +5,7 @@ import Card from "../components/Card";
 import grammy from '../assets/grammy.jpeg';
 import zecaThumbsUp from '../assets/zeca_thumbs_up.webp'
 import zecaIcon from '../assets/zeca_icon.jpg'
+import Footer from "../components/Footer";
 
 export default function Home() {
     return (
@@ -47,6 +48,7 @@ export default function Home() {
                     />
                 </section>
             </main>
+            <Footer />
         </>
     );
 }

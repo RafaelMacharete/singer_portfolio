@@ -4,7 +4,6 @@
     display: flex;
     align-items: flex-start;
     background: #fff;
-    border-radius: 1rem;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     padding: 1.5rem;
     margin: 1rem 0;
@@ -22,7 +21,6 @@
     width: 13rem;
     height: 13rem;
     object-fit: cover;
-    border-radius: 0.75rem;
     box-shadow: 0 1px 4px rgba(0,0,0,0.07);
 }
 

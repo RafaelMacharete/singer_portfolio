@@ -6,6 +6,7 @@ import thirdSong from "../assets/musica3.jpg";
 import fourthSong from "../assets/musica4.jpg";
 import fifthSong from "../assets/musica5.jpg";
 import style from './PopularSongs.module.css';
+import Footer from "../components/Footer";
 
 // Displays a list of popular songs
 export default function PopularSongs() {
@@ -68,6 +69,7 @@ export default function PopularSongs() {
                     </ol>
                 </section>
             </main>
+            <Footer />
         </>
     );
 }

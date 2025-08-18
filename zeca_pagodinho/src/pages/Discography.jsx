@@ -5,6 +5,7 @@ import sambaForLadies from '../assets/samba_pras_mocas.jpg';
 import Card from '../components/Card';
 import boyWay from '../assets/jeito_moleque.jpg'
 import ourHabit from '../assets/mania_da_gente.jpg';
+import Footer from '../components/Footer';
 
 export default function Discography() {
     return(
@@ -49,6 +50,7 @@ export default function Discography() {
                     </ul>
                 </section>
             </main>
+            <Footer />
         </>
     )
 }
